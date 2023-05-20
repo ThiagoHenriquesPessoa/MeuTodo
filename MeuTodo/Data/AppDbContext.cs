@@ -9,7 +9,7 @@ namespace MeuTodo.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(connectionString:"DateSource=app.db;Cache=Shered");
+            optionsBuilder.UseSqlite(connectionString:"DataSource=app.db;Cache=Shared");
         }
     }
 }
